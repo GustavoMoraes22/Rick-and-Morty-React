@@ -1,8 +1,13 @@
-# React + Vite
+<h1 align="center">Rick and Morty</h1>
+Este projeto é uma página web que exibe informações sobre os personagens da popular série de animação "Rick and Morty". A aplicação foi desenvolvida utilizando React e faz uso de uma API externa para obter os dados dos personagens.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<h2 align="center">Preview</h2>
+<div align="center">
+ <img src = 'https://github.com/GustavoMoraes22/Rick-and-Morty-React/blob/master/src/assets/site.png'>
+</div>
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Funcionalidades
++ Listagem de Personagens: A página exibe uma lista de personagens da série, mostrando suas imagens, nomes e status (vivo, morto ou desconhecido).
++ Detalhes dos Personagens: Ao clicar em um personagem, são exibidas informações detalhadas sobre ele, como o local de origem, o episódio em que apareceu pela primeira vez, e outras curiosidades.
++ Busca por Personagem: Funcionalidade de pesquisa para encontrar personagens específicos rapidamente.
++ Paginação: Navegação entre páginas para ver mais personagens.
